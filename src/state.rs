@@ -11,4 +11,4 @@ pub struct State {
     pub scores: Vec<(Addr, u16)>,
 }
 
-pub const STATE: Item<State> = Item::new("state");
+pub const STORAGE: Item<State> = Item::new("state"); //the object that contains the state items
